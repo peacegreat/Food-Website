@@ -11,7 +11,7 @@ const FoodItem = ({id,name,price,description,image}) => {
     <div className='food-item'>
         <div className='food-item-img-container'> 
             <img className='food-item-image' src={image} alt=''/> 
-            <button>
+            <button className='add-to-cart'>
                 <p>ADD TO CART</p>
             </button>           
             {!cartItems[id]

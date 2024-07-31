@@ -47,6 +47,17 @@
     cursor: pointer;
     border-radius: 50%;
 }
+
+.food-item-img-container .add-to-cart{
+    width: 120px;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    height: 35px;
+    cursor: pointer;
+    border: none;    
+    border-radius: 5px;
+}
 .food-item-counter{
     position: absolute;
     bottom: 15px;
